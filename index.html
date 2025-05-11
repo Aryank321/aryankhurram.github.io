@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aryan Khurram - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -15,9 +15,10 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -28,12 +29,24 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <img src="profile pic.jpg" alt="Profile Photo" class="profile-photo">
                 <h1>Aryan Khurram</h1>
                 <h2>Business Technology Management Co-op Student</h2>
                 <p>Toronto Metropolitan University</p>
                 <div class="social-links">
                     <a href="mailto:aryan.khurram@torontmu.ca" target="_blank"><i class="fas fa-envelope"></i></a>
-                    <a href="https://linkedin.com/in/your-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Aryank321" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-khurram-501655285/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="pill-buttons">
+                    <a href="Aryan Khurram Resume Updated Version.pdf" class="pill-button outline" download>
+                        <i class="fas fa-file-alt"></i>
+                        View Professional Resume
+                    </a>
+                    <a href="Aryan Khurram Unoffical Transcript.pdf" class="pill-button outline" download>
+                        <i class="fas fa-graduation-cap"></i>
+                        View Academic Transcript
+                    </a>
                 </div>
             </div>
         </div>
@@ -43,186 +56,192 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <div class="about-content">
+            <div class="about-content" style="text-align: center;">
                 <p>As a Business Technology Management student at Toronto Metropolitan University, I combine strong academic achievement with a dedication to advancing business through technological innovation. My academic pursuits reflect my commitment to excellence in both technical proficiency and business acumen.</p>
                 
-                <p>My professional focus encompasses data analytics and visualization, utilizing industry-standard tools such as Python, SQL, Tableau, and Power BI. This technical foundation is complemented by comprehensive knowledge in business analytics, strategic planning, and financial analysis, enabling a systematic approach to complex business challenges.</p>
+                <p>My professional focus encompasses data analytics and visualization, utilizing industry-standard tools such as Python, SQL, Excel, Tableau, and Power BI. This technical foundation is complemented by comprehensive knowledge in business analytics, strategic planning, and financial analysis, enabling a systematic approach to complex business challenges.</p>
 
                 <p>With a keen interest in digital transformation and business innovation, I strive to develop solutions that drive organizational efficiency and sustainable growth in today's dynamic business environment.</p>
             </div>
+        </div>
+    </section>
 
-            <!-- Education Section -->
-            <div class="education-container">
-                <h2>Education</h2>
-                <div class="education-item">
-                    <div class="education-header">
-                        <img src="tmu-logo-social-media.jpg" alt="TMU Logo" class="tmu-logo">
-                        <h3>Bachelor of Commerce in Business Technology Management</h3>
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <img src="tmu-logo-social-media.jpg" alt="TMU Logo" class="tmu-logo">
+                    <h3>Ted Rogers School of Management, Toronto Metropolitan University</h3>
+                </div>
+                <h4>Bachelor of Commerce in Business Technology Management</h4>
+                <p class="education-date">Expected Graduation: 2028</p>
+                <p class="education-location">Toronto, Ontario</p>
+                <p class="education-gpa">CGPA: 3.82/4.33</p>
+                
+                <button class="courses-dropdown-btn"><span>View BTM Courses</span></button>
+                <div class="course-grid">
+                    <div class="course-box">
+                        <h5>GMS 200 - Introduction to Global Management</h5>
+                        <p>Explore global business environments, strategies, and management practices across different cultural contexts.</p>
+                        <div class="course-keywords">
+                            <span>International Business</span>
+                            <span>Cultural Intelligence</span>
+                            <span>Global Markets</span>
+                            <span>Cross-Cultural Management</span>
+                            <span>Trade Relations</span>
+                        </div>
                     </div>
-                    <h4>Ted Rogers School of Management, Toronto Metropolitan University</h4>
-                    <p class="education-date">Expected Graduation: 2028</p>
-                    <p class="education-location">Toronto, Ontario</p>
-                    <p class="education-gpa">CGPA: 3.84/4.33</p>
-                    
-                    <div class="courses-section">
-                        <button class="courses-dropdown-btn">View BTM Courses</button>
-                        <div class="courses-dropdown-content">
-                            <div class="course-grid">
-                                <div class="course-box">
-                                    <h5>GMS 200</h5>
-                                    <p>Explore global business environments, strategies, and management practices across different cultural contexts.</p>
-                                    <div class="course-keywords">
-                                        <span>International Business</span>
-                                        <span>Cultural Intelligence</span>
-                                        <span>Global Markets</span>
-                                        <span>Cross-Cultural Management</span>
-                                        <span>Trade Relations</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 100</h5>
-                                    <p>Learn core concepts of information systems and their role in modern business operations.</p>
-                                    <div class="course-keywords">
-                                        <span>Business Systems</span>
-                                        <span>Digital Transformation</span>
-                                        <span>IT Infrastructure</span>
-                                        <span>Enterprise Systems</span>
-                                        <span>Data Management</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 107</h5>
-                                    <p>Apply quantitative methods and analytical tools to solve business problems and make informed decisions.</p>
-                                    <div class="course-keywords">
-                                        <span>Decision Analysis</span>
-                                        <span>Quantitative Methods</span>
-                                        <span>Business Analytics</span>
-                                        <span>Risk Assessment</span>
-                                        <span>Statistical Analysis</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 207</h5>
-                                    <p>Master algorithmic thinking and problem-solving techniques for business applications.</p>
-                                    <div class="course-keywords">
-                                        <span>Algorithm Design</span>
-                                        <span>Computational Thinking</span>
-                                        <span>Problem Solving</span>
-                                        <span>Logic Development</span>
-                                        <span>Process Automation</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>MHR 405</h5>
-                                    <p>Study human behavior in organizations, including leadership, motivation, and team dynamics.</p>
-                                    <div class="course-keywords">
-                                        <span>Leadership Development</span>
-                                        <span>Team Management</span>
-                                        <span>Organizational Culture</span>
-                                        <span>Change Management</span>
-                                        <span>Employee Relations</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>QMS 210</h5>
-                                    <p>Discover fundamental statistical concepts including probability, hypothesis testing, and regression analysis.</p>
-                                    <div class="course-keywords">
-                                        <span>Probability Theory</span>
-                                        <span>Hypothesis Testing</span>
-                                        <span>Regression Analysis</span>
-                                        <span>Statistical Methods</span>
-                                        <span>Descriptive Statistics</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ACC 100</h5>
-                                    <p>Explore foundational accounting principles, GAAP standards, and financial statement preparation.</p>
-                                    <div class="course-keywords">
-                                        <span>GAAP Standards</span>
-                                        <span>Financial Statements</span>
-                                        <span>Journal Entries</span>
-                                        <span>Accounting Cycle</span>
-                                        <span>Financial Reporting</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 200</h5>
-                                    <p>Introduction to Python programming basics, data types, control structures, and simple applications.</p>
-                                    <div class="course-keywords">
-                                        <span>Python Basics</span>
-                                        <span>Control Structures</span>
-                                        <span>Data Types</span>
-                                        <span>Functions</span>
-                                        <span>File Handling</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 301</h5>
-                                    <p>Study modern IT infrastructure components, cloud computing, and cybersecurity principles.</p>
-                                    <div class="course-keywords">
-                                        <span>Network Architecture</span>
-                                        <span>Cloud Computing</span>
-                                        <span>Cybersecurity</span>
-                                        <span>System Administration</span>
-                                        <span>IT Service Management</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>MKT 100</h5>
-                                    <p>Understand core marketing concepts, consumer behavior, and strategic marketing planning.</p>
-                                    <div class="course-keywords">
-                                        <span>Marketing Strategy</span>
-                                        <span>Consumer Behavior</span>
-                                        <span>Market Research</span>
-                                        <span>Digital Marketing</span>
-                                        <span>Brand Management</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ACC 406</h5>
-                                    <p>Understand managerial accounting concepts, cost behavior, and decision-making tools.</p>
-                                    <div class="course-keywords">
-                                        <span>Cost Behavior</span>
-                                        <span>Variance Analysis</span>
-                                        <span>Cost-Volume-Profit</span>
-                                        <span>Budgetary Control</span>
-                                        <span>Performance Measurement</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 305</h5>
-                                    <p>Master system development lifecycle, requirements analysis, and software design methodologies.</p>
-                                    <div class="course-keywords">
-                                        <span>Systems Analysis</span>
-                                        <span>UML Modeling</span>
-                                        <span>Requirements Engineering</span>
-                                        <span>Software Architecture</span>
-                                        <span>Agile Methods</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>ITM 500</h5>
-                                    <p>Study database design, SQL programming, and data management principles for business applications.</p>
-                                    <div class="course-keywords">
-                                        <span>Database Design</span>
-                                        <span>SQL Development</span>
-                                        <span>Data Modeling</span>
-                                        <span>Query Optimization</span>
-                                        <span>Business Intelligence</span>
-                                    </div>
-                                </div>
-                                <div class="course-box">
-                                    <h5>LAW 122</h5>
-                                    <p>Examine business law fundamentals including contracts, tort law, and corporate regulations.</p>
-                                    <div class="course-keywords">
-                                        <span>Contract Law</span>
-                                        <span>Tort Law</span>
-                                        <span>Corporate Law</span>
-                                        <span>Business Ethics</span>
-                                        <span>Legal Liability</span>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="course-box">
+                        <h5>ITM 100 - Foundations of Information Systems</h5>
+                        <p>Learn core concepts of information systems and their role in modern business operations.</p>
+                        <div class="course-keywords">
+                            <span>Business Systems</span>
+                            <span>Digital Transformation</span>
+                            <span>IT Infrastructure</span>
+                            <span>Enterprise Systems</span>
+                            <span>Data Management</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 107 - Mathematics for Business Technology Mgt.</h5>
+                        <p>Apply quantitative methods and analytical tools to solve business problems and make informed decisions.</p>
+                        <div class="course-keywords">
+                            <span>Decision Analysis</span>
+                            <span>Quantitative Methods</span>
+                            <span>Business Analytics</span>
+                            <span>Risk Assessment</span>
+                            <span>Statistical Analysis</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 207 - Computer-Enabled Problem Solving</h5>
+                        <p>Master algorithmic thinking and problem-solving techniques for business applications.</p>
+                        <div class="course-keywords">
+                            <span>Algorithm Design</span>
+                            <span>Computational Thinking</span>
+                            <span>Problem Solving</span>
+                            <span>Logic Development</span>
+                            <span>Process Automation</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>MHR 405 - Organizational Behaviour</h5>
+                        <p>Study human behavior in organizations, including leadership, motivation, and team dynamics.</p>
+                        <div class="course-keywords">
+                            <span>Leadership Development</span>
+                            <span>Team Management</span>
+                            <span>Organizational Culture</span>
+                            <span>Change Management</span>
+                            <span>Employee Relations</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>QMS 210 - Applied Mathematics for Business</h5>
+                        <p>Discover fundamental statistical concepts including probability, hypothesis testing, and regression analysis.</p>
+                        <div class="course-keywords">
+                            <span>Probability Theory</span>
+                            <span>Hypothesis Testing</span>
+                            <span>Regression Analysis</span>
+                            <span>Statistical Methods</span>
+                            <span>Descriptive Statistics</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ACC 100 - Introductory Financial Accounting</h5>
+                        <p>Explore foundational accounting principles, GAAP standards, and financial statement preparation.</p>
+                        <div class="course-keywords">
+                            <span>GAAP Standards</span>
+                            <span>Financial Statements</span>
+                            <span>Journal Entries</span>
+                            <span>Accounting Cycle</span>
+                            <span>Financial Reporting</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 200 - Fundamentals of Programming</h5>
+                        <p>Introduction to Python programming basics, data types, control structures, and simple applications.</p>
+                        <div class="course-keywords">
+                            <span>Python Basics</span>
+                            <span>Control Structures</span>
+                            <span>Data Types</span>
+                            <span>Functions</span>
+                            <span>File Handling</span>
+                            <span>Error Handling</span>
+                            <span>Lists & Dictionaries</span>
+                            <span>Object-Oriented Programming</span>
+                            <span>Debugging Skills</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 301 - IT Infrastructure</h5>
+                        <p>Study modern IT infrastructure components, cloud computing, and cybersecurity principles.</p>
+                        <div class="course-keywords">
+                            <span>Network Architecture</span>
+                            <span>Cloud Computing</span>
+                            <span>Cybersecurity</span>
+                            <span>System Administration</span>
+                            <span>IT Service Management</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>MKT 100 - Principles of Marketing</h5>
+                        <p>Understand core marketing concepts, consumer behavior, and strategic marketing planning.</p>
+                        <div class="course-keywords">
+                            <span>Marketing Strategy</span>
+                            <span>Consumer Behavior</span>
+                            <span>Market Research</span>
+                            <span>Digital Marketing</span>
+                            <span>Brand Management</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ACC 406 - Introductory Management Accounting</h5>
+                        <p>Understand managerial accounting concepts, cost behavior, and decision-making tools.</p>
+                        <div class="course-keywords">
+                            <span>Cost Behavior</span>
+                            <span>Variance Analysis</span>
+                            <span>Cost-Volume-Profit</span>
+                            <span>Budgetary Control</span>
+                            <span>Performance Measurement</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 305 - Systems Analysis and Design</h5>
+                        <p>Master system development lifecycle, requirements analysis, and software design methodologies.</p>
+                        <div class="course-keywords">
+                            <span>Systems Analysis</span>
+                            <span>UML Modeling</span>
+                            <span>Requirements Engineering</span>
+                            <span>Software Architecture</span>
+                            <span>Agile Methods</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>ITM 500 - Data and Information Management</h5>
+                        <p>Study database design, SQL programming, and data management principles for business applications.</p>
+                        <div class="course-keywords">
+                            <span>Database Design</span>
+                            <span>SQL Development</span>
+                            <span>Data Modeling</span>
+                            <span>Query Optimization</span>
+                            <span>Business Intelligence</span>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <h5>LAW 122 - Business Law</h5>
+                        <p>Examine business law fundamentals including contracts, tort law, and corporate regulations.</p>
+                        <div class="course-keywords">
+                            <span>Contract Law</span>
+                            <span>Tort Law</span>
+                            <span>Corporate Law</span>
+                            <span>Business Ethics</span>
+                            <span>Legal Liability</span>
+                            <span>Employment Law</span>
+                            <span>Intellectual Property</span>
+                            <span>Consumer Protection</span>
+                            <span>Regulatory Compliance</span>
                         </div>
                     </div>
                 </div>
@@ -235,52 +254,11 @@
         <div class="container">
             <h2>Experience</h2>
             <div class="timeline">
-                <!-- DataWorks Program -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Jan 2024 - Mar 2024</div>
-                        <h3>Program Participant</h3>
-                        <h4>TMU MDSA DataWorks Program</h4>
-                        <p>Toronto, Ontario</p>
-                        <div class="experience-skills">
-                            <span>Data Preparation</span>
-                            <span>Data Cleaning</span>
-                            <span>Business Intelligence</span>
-                            <span>Tableau</span>
-                            <span>Power BI</span>
-                            <span>Excel</span>
-                        </div>
-                        <div class="timeline-details">
-                            <p>Led comprehensive data preparation and cleansing processes to ensure dataset consistency and optimization for analysis. Developed sophisticated dashboards using Tableau and Power BI to analyze real-world datasets, identifying key patterns and trends. Leveraged Excel and business intelligence tools to enhance data visualization clarity and deliver actionable insights for data-driven decision-making.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Glo-Bus Project -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Sept 2023 - Dec 2023</div>
-                        <h3>Project Associate</h3>
-                        <h4>Glo-Bus Simulation Project</h4>
-                        <p>Toronto, Ontario</p>
-                        <div class="experience-skills">
-                            <span>Strategic Planning</span>
-                            <span>Business Analytics</span>
-                            <span>Financial Modeling</span>
-                            <span>Market Analysis</span>
-                            <span>Data-Driven Decision Making</span>
-                        </div>
-                        <div class="timeline-details">
-                            <p>Developed and executed strategic business decisions for BAA Drones-Cameras, managing product development and marketing initiatives across four global regions. Successfully improved simulated EPS from $0.75 to $8.17 through optimization of pricing strategies, advertising campaigns, and production processes. Led R&D initiatives that enhanced product quality and increased ROE from 14% to 53.5%, while implementing robotics integration to streamline operations and reduce production costs.</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="timeline-dot" style="top: 140px;"></div>  <!-- Faysal Bank - exact middle -->
+                <div class="timeline-dot" style="top: 515px;"></div>  <!-- Public Transportation - exact middle -->
 
                 <!-- Faysal Bank -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="timeline-date">June 2022 - Aug 2022</div>
                         <h3>Bank Operations Trainee</h3>
@@ -294,6 +272,7 @@
                             <span>Excel</span>
                             <span>Compliance</span>
                         </div>
+                        <a href="#" class="see-more-link">See More <i class="fas fa-chevron-down"></i></a>
                         <div class="timeline-details">
                             <p>Streamlined client onboarding processes by facilitating account setup and ensuring thorough compliance documentation review. Maintained data accuracy by meticulously verifying and cross-referencing financial information using Excel and internal systems. Enhanced operational efficiency through detailed transaction logging and systematic record maintenance, while ensuring adherence to banking regulations and compliance standards.</p>
                         </div>
@@ -302,7 +281,6 @@
 
                 <!-- Public Transportation -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="timeline-date">Mar 2022</div>
                         <h3>Project Coordination Trainee</h3>
@@ -316,6 +294,7 @@
                             <span>Python</span>
                             <span>SQL</span>
                         </div>
+                        <a href="#" class="see-more-link">See More <i class="fas fa-chevron-down"></i></a>
                         <div class="timeline-details">
                             <p>Effectively managed project timelines and deliverables through comprehensive scheduling and detailed documentation using Excel. Utilized Python and SQL to collect, organize, and analyze operational data, generating accurate reports for stakeholder review. Implemented systematic progress tracking through daily check-ins and status meetings, ensuring project milestones were met and team communication remained consistent.</p>
                         </div>
@@ -333,16 +312,24 @@
                 <div class="skill-category">
                     <h3>Technical Skills</h3>
                     <ul class="skill-list">
-                        <li>Python (Levels 1-3)</li>
-                        <li>SQL (Levels 1-3)</li>
-                        <li>Power BI (Levels 1-2)</li>
-                        <li>Tableau (Levels 1-4)</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
                         <li>Data Analysis & Visualization</li>
-                        <li>ETL Processes</li>
+                        <li>Database Management</li>
                         <li>Business Intelligence</li>
-                        <li>Excel & VBA</li>
+                        <li>Excel</li>
+                        <li>Data Reporting</li>
+                        <li>Data Collection</li>
+                        <li>Dashboard Development</li>
+                        <li>SDLC (System Development Life Cycle)</li>
+                        <li>Requirements Analysis</li>
+                        <li>Software Documentation</li>
                     </ul>
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
                 </div>
+                
                 <div class="skill-category">
                     <h3>Business Skills</h3>
                     <ul class="skill-list">
@@ -354,8 +341,15 @@
                         <li>Business Analytics</li>
                         <li>Process Optimization</li>
                         <li>Team Leadership</li>
+                        <li>Stakeholder Management</li>
+                        <li>Change Management</li>
+                        <li>Business Process Mapping</li>
+                        <li>Requirements Gathering</li>
+                        <li>Presentation Skills</li>
                     </ul>
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
                 </div>
+                
                 <div class="skill-category">
                     <h3>Soft Skills</h3>
                     <ul class="skill-list">
@@ -367,7 +361,286 @@
                         <li>Critical Thinking</li>
                         <li>Attention to Detail</li>
                         <li>Client Management</li>
+                        <li>Public Speaking</li>
+                        <li>Conflict Resolution</li>
+                        <li>Emotional Intelligence</li>
+                        <li>Cross-Cultural Communication</li>
+                        <li>Self-Motivation</li>
                     </ul>
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Glo-Bus Project -->
+                <div class="project-card">
+                    <h3>Glo-Bus Business Simulation</h3>
+                    <h4>Global Business Strategy Competition</h4>
+                    
+                    <div class="project-tech">
+                        <span>Strategic Planning</span>
+                        <span>Market Analysis</span>
+                        <span>Financial Management</span>
+                        <span>Product Development</span>
+                        <span>Global Operations</span>
+                        <span>Competitive Analysis</span>
+                        <span>ROI Optimization</span>
+                        <span>Supply Chain</span>
+                        <span>Risk Management</span>
+                        <span>Performance Metrics</span>
+                    </div>
+
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                    
+                    <div class="project-details">
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-flag"></i>
+                                Challenge
+                            </div>
+                            <div class="project-section-content">
+                                Led BAA Drones-Cameras in a competitive global market simulation, managing premium product strategy across four regions. Focused on developing high-end action capture cameras and UAV drones while maintaining strong financial performance and market positioning. Tasked with growing total revenues from $334,128 to over $799,642 while establishing premium brand positioning in both product segments.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-tasks"></i>
+                                Approach
+                            </div>
+                            <div class="project-section-content">
+                                Implemented strategic R&D investments and robotics integration to maintain industry-leading product quality. Executed region-specific pricing strategies, with premium positioning in North America/Europe-Africa and competitive pricing in Asia/Latin America. Enhanced workforce productivity through competitive compensation and training programs, while optimizing production efficiency with 360-day warranty periods and advanced quality control measures.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-chart-line"></i>
+                                Outcome
+                            </div>
+                            <div class="project-section-content">
+                                Achieved second place with a company score of 97, consistently maintaining top 4 ranking throughout the simulation. Improved EPS from $0.75 to $8.17, increased ROE from 14% to 53.5%, and elevated credit rating from B to A. Enhanced brand image rating from 70 to 83, while growing stock price from $12.00 to $229.37. Successfully implemented premium product strategy while maintaining strong market presence across all regions.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MDSA DataWorks Project -->
+                <div class="project-card">
+                    <h3>New Zealand Automobile Industry Dashboard Analysis</h3>
+                    <h4>TMU MDSA DataWorks Program</h4>
+                    
+                    <div class="project-tech">
+                        <span>Power BI</span>
+                        <span>Data Analysis</span>
+                        <span>Filled Maps</span>
+                        <span>Stacked Charts</span>
+                        <span>Funnel Charts</span>
+                        <span>Pie Charts</span>
+                        <span>Data Aggregation</span>
+                        <span>Interactive Filters</span>
+                        <span>Time Analysis</span>
+                        <span>Geographic Analysis</span>
+                    </div>
+
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                    
+                    <div class="project-details">
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-flag"></i>
+                                Challenge
+                            </div>
+                            <div class="project-section-content">
+                                Created a Power BI analytics solution analyzing 5,000+ vehicle sales records in New Zealand's automobile industry. Focused on visualizing sales distribution, price ranges across vehicle categories, and identifying market trends through monthly/quarterly analysis.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-tasks"></i>
+                                Approach
+                            </div>
+                            <div class="project-section-content">
+                                Applied COUNT, SUM, AVERAGE, MAX, MIN functions for data analysis. Created regional maps with color gradients, implemented year/quarter slicers, and manufacturer filters. Designed pie charts for market segments and stacked bar charts for monthly tracking.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-chart-line"></i>
+                                Outcome
+                            </div>
+                            <div class="project-section-content">
+                                Delivered an intuitive dashboard with color-coded maps, stacked bar charts, and pie charts for market segmentation. Enhanced with funnel charts and geographic breakdowns, revealing 45% regional demand variations and pricing patterns.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SQL Zoo Management Project -->
+                <div class="project-card">
+                    <h3>Relational SQL Project – Zoo Management Database</h3>
+                    <h4>SQL Bootcamp Certification Project</h4>
+                    
+                    <div class="project-tech">
+                        <span>Database Design</span>
+                        <span>ERD Modeling</span>
+                        <span>SQL Joins</span>
+                        <span>Aggregate Functions</span>
+                        <span>Window Functions</span>
+                        <span>Nested Queries</span>
+                        <span>Data Normalization</span>
+                        <span>Query Optimization</span>
+                        <span>Relationship Mapping</span>
+                        <span>Data Analysis</span>
+                    </div>
+
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                    
+                    <div class="project-details">
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-flag"></i>
+                                Challenge
+                            </div>
+                            <div class="project-section-content">
+                                Built a zoo management database using ERD modeling with 4 interconnected tables. Implemented primary/foreign keys and recursive relationships for tracking animal lineage, staff assignments, species classifications, and facility operations.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-tasks"></i>
+                                Approach
+                            </div>
+                            <div class="project-section-content">
+                                Developed normalized database schema with defined relationships. Created SQL queries using INNER/LEFT JOINs, GROUP BY, ORDER BY, WHERE clauses, and aggregate functions (COUNT, AVG, MAX, MIN) for operational analysis.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-chart-line"></i>
+                                Outcome
+                            </div>
+                            <div class="project-section-content">
+                                Delivered a robust database system with advanced analytics. Implemented window functions, HAVING clauses, and nested queries for rankings computation, filtered aggregations, and operational metrics tracking.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- US Superstore Analysis Project -->
+                <div class="project-card">
+                    <h3>US Superstore Data Analysis</h3>
+                    <h4>Power BI Bootcamp Certification Project</h4>
+                    
+                    <div class="project-tech">
+                        <span>Filled Maps</span>
+                        <span>Year Slicers</span>
+                        <span>Region Filters</span>
+                        <span>Donut Charts</span>
+                        <span>Pie Charts</span>
+                        <span>Clustered Charts</span>
+                        <span>Card Visuals</span>
+                        <span>LOOKUPVALUE</span>
+                        <span>Calculated Columns</span>
+                        <span>Data Relationships</span>
+                    </div>
+
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                    
+                    <div class="project-details">
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-flag"></i>
+                                Challenge
+                            </div>
+                            <div class="project-section-content">
+                                Created a Power BI dashboard analyzing 2,500+ US Superstore orders (2014-2017). Focused on sales patterns, profit analysis, and regional performance metrics including returns analysis, shipping methods, and category performance.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-tasks"></i>
+                                Approach
+                            </div>
+                            <div class="project-section-content">
+                                Built calculated columns for profit tracking and temporal analysis. Implemented LOOKUPVALUE for sales data connections, created interactive maps with top 10 states. Added donut charts for returns, pie charts for shipping, and clustered charts for category analysis.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-chart-line"></i>
+                                Outcome
+                            </div>
+                            <div class="project-section-content">
+                                Produced an interactive dashboard highlighting top states (65% of sales) with synchronized filters. Integrated donut charts for returns, pie charts for shipping analysis, and clustered charts for category performance with KPI cards.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bank User Onboarding Project -->
+                <div class="project-card">
+                    <h3>Bank User Onboarding Analytics Report</h3>
+                    <h4>Tableau Bootcamp Certification Project</h4>
+                    
+                    <div class="project-tech">
+                        <span>Bar Charts</span>
+                        <span>Line Charts</span>
+                        <span>Stacked Bars</span>
+                        <span>Dual Axis</span>
+                        <span>Treemaps</span>
+                        <span>KPI Tracking</span>
+                        <span>Custom Filters</span>
+                        <span>Time Analysis</span>
+                        <span>Data Segmentation</span>
+                        <span>Dashboard Design</span>
+                    </div>
+
+                    <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+                    
+                    <div class="project-details">
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-flag"></i>
+                                Challenge
+                            </div>
+                            <div class="project-section-content">
+                                Developed a Tableau dashboard analyzing onboarding processes for 1,000+ new bank accounts. Required tracking of user metrics and flow patterns across segments with dimension and measure analysis.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-tasks"></i>
+                                Approach
+                            </div>
+                            <div class="project-section-content">
+                                Created bar, line, stacked bar, and dual-axis charts for visualization. Implemented treemaps for user segmentation, integrated KPI tracking with custom filters, and added time-based trend analysis.
+                            </div>
+                        </div>
+
+                        <div class="project-section">
+                            <div class="project-section-title">
+                                <i class="fas fa-chart-line"></i>
+                                Outcome
+                            </div>
+                            <div class="project-section-content">
+                                Delivered a comprehensive dashboard showing 28% improvement in completion rates. Implemented synchronized visualizations with custom filtering and detailed segment-based performance tracking.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -378,6 +651,12 @@
         <div class="container">
             <h2>Certifications</h2>
             <div class="certifications-grid">
+                <div class="certification-item">
+                    <h3>Power of Excel: Business Fundamentals 2.0</h3>
+                    <p>Bootcamps at the Ted Rogers School of Management</p>
+                    <p>Issued Apr 2025</p>
+                    <p>Credential ID 139784898</p>
+                </div>
                 <div class="certification-item">
                     <h3>Tableau 2.0</h3>
                     <p>Bootcamps at the Ted Rogers School of Management</p>
@@ -415,17 +694,57 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> aryan.khurram@torontmu.ca</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Toronto, Ontario</p>
-                    <div class="social-links">
-                        <a href="https://linkedin.com/in/your-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <div class="contact-flex">
+                <div class="contact-details">
+                    <div class="contact-detail-box" id="contact-email">
+                        <span class="icon-circle"><i class="fas fa-envelope"></i></span>
+                        <span>aryan.khurram@torontmu.ca</span>
                     </div>
+                    <div class="contact-detail-box" id="contact-phone">
+                        <span class="icon-circle"><i class="fas fa-phone"></i></span>
+                        <span>(416) 420-7940</span>
+                    </div>
+                    <div class="contact-detail-box" id="contact-github">
+                        <span class="icon-circle"><i class="fab fa-github"></i></span>
+                        <a href="https://github.com/Aryank321" target="_blank">github.com/Aryank321</a>
+                    </div>
+                    <div class="contact-detail-box" id="contact-linkedin">
+                        <span class="icon-circle"><i class="fab fa-linkedin"></i></span>
+                        <a href="https://www.linkedin.com/in/aryan-khurram-501655285/" target="_blank">linkedin.com/in/aryan-k</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" class="contact-form" action="https://formspree.io/f/xnndbvzr" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div id="formMessage" class="form-message"></div>
+                        <button type="submit" class="submit-btn">
+                            <span class="spinner"></span>
+                            Send Message
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Aryan Khurram. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/aryan-khurram-501655285/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Aryank321" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
