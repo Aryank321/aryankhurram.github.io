@@ -104,12 +104,12 @@ body {
 
 /* Hero section */
 .hero {
-    min-height: 130vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 4rem;
     background: var(--bg-gradient);
     position: relative;
@@ -1510,7 +1510,7 @@ section {
     /* Hero section */
     .hero {
         min-height: 100vh;
-        padding-top: 40px;
+        padding-top: 0px;
     }
 
     .hero-content h1 {
