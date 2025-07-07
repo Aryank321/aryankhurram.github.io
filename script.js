@@ -1,10 +1,25 @@
-// Add downloadFile function at the top of the file
+// Function to handle file downloads
 function downloadFile(filename) {
+    // Create a temporary link element
     const link = document.createElement('a');
+    
+    // Set the link's properties
     link.href = filename;
-    link.download = filename;
+    link.target = '_blank'; // Open in new tab as fallback
+    link.download = filename.split('/').pop(); // Extract filename from path
+    
+    // Add link to document
     document.body.appendChild(link);
-    link.click();
+    
+    // Trigger click
+    try {
+        link.click();
+    } catch (err) {
+        // Fallback - open in new tab
+        window.open(filename, '_blank');
+    }
+    
+    // Remove link from document
     document.body.removeChild(link);
 }
 
